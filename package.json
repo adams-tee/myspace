@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "sass client/scss/custom.scss public/style.css --no-source-map",
     "watch-css": "sass --watch client/scss/:/public/css --load-path=node_modules"
